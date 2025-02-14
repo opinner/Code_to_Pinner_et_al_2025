@@ -181,7 +181,7 @@ def plotting():
     ax.set_ylim(0, 500)
     ax.set_title(r"Dissipation diagnosed from Thorpe scales")
     helper.Plot.path_as_footnote(fig=f,
-                                 path="Pinner_et_al_2024/scripts/thorpe_scales/thorpe_scales.py",
+                                 path="Code_to_Pinner_et_al_2025/scripts/thorpe_scales/thorpe_scales.py",
                                  rot="vertical")
 
     levels = [28.00, 28.26, 28.40]
