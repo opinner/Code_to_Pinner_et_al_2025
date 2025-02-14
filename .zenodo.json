@@ -1,6 +1,6 @@
 {
-  "title": "Analysis code to: Internal-wave-induced dissipation rates in the Weddell Sea Bottom Water gravity current, (Pinner et al., 2024)",
-  "license": "CC-BY-4.0",
+  "title": "Analysis code to: Internal-wave-induced dissipation rates in the Weddell Sea Bottom Water gravity current, (Pinner et al., 2025)",
+  "license": "MIT License",
   "creators": [
     {
       "name": "Pinner, Ole",
@@ -30,7 +30,7 @@
         },
     {
             "scheme": "url",
-            "identifier": "https://github.com/opinner/Pinner_et_al_2024",
+            "identifier": "https://github.com/opinner/Code_to_Pinner_et_al_2025",
             "relation": "isDerivedFrom"
         }
     ]
