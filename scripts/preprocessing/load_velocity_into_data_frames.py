@@ -1,10 +1,11 @@
-import scipy.io as sio
 import numpy as np
 import pandas as pd
+import scipy.io as sio
 import src.helper_functions as helper
-from src.mooring import Mooring
+
 from src.location import Location
-    
+from src.mooring import Mooring
+
 # ===== load_and_sort_moorings ======
 file_path = "/media/sf_VM_Folder/data/moorings/supermooring.mat"
 struct = sio.loadmat(file_path)

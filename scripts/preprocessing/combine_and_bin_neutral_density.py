@@ -1,10 +1,12 @@
+import warnings
+
+import mixsea as mx
 import numpy as np
 import pandas as pd
-import mixsea as mx
-from src.read_CTDs import load_Joinville_transect_CTDs
 from scipy.interpolate import interp1d  # is considered legacy code, will be in the future removed from scipy
-import scipy.stats as ss
-import warnings
+
+from src.read_CTDs import load_Joinville_transect_CTDs
+
 warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 # Suppress specific RuntimeWarning related to mean of empty slice
 warnings.filterwarnings(action="ignore", category=RuntimeWarning, message=".*Mean of empty slice.*")

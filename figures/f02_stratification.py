@@ -1,7 +1,9 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import cmocean as cmocean
 import warnings
+
+import cmocean as cmocean
+import matplotlib.pyplot as plt
+import pandas as pd
+
 # Suppress specific RuntimeWarning related to mean of empty slice
 warnings.filterwarnings("ignore", category=RuntimeWarning, message=".*Mean of empty slice.*")
 

@@ -1,5 +1,7 @@
 from dataclasses import dataclass
+
 from geopy.distance import distance as geopy_distance
+
 
 @dataclass
 class Location():

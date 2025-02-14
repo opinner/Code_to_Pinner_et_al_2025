@@ -1,6 +1,7 @@
-import src.read_CTDs
 import numpy as np
-import pandas as pd
+
+import src.read_CTDs
+
 
 def get_transect_CTDs():
     data = src.read_CTDs.get_PS129_CTD_data()

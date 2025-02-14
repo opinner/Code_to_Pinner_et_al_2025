@@ -1,10 +1,11 @@
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+
 import src.gm_library as gm
 import src.helper as helper
-import src.spectra as spectra
 import src.plots as plots
+import src.spectra as spectra
 
 plt.style.use('./thesis.mplstyle')
 

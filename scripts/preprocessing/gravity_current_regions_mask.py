@@ -1,9 +1,8 @@
-import pandas as pd
-import numpy as np
-
-import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
 import cmocean
+import matplotlib.colors as mcolors
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 
 # load binned data
 binned_neutral_density = pd.read_csv("../preprocessing/method_results/binned_gamma_n.csv", index_col=0)

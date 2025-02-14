@@ -1,5 +1,4 @@
 # Import the necessary libraries
-import cartopy.util
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 import matplotlib.patches as patches

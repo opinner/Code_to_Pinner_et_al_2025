@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 import mixsea as mx
 import numpy as np
 import pandas as pd
@@ -7,6 +6,17 @@ import scipy.stats as ss
 import warnings
 # import my self written functions
 from src.read_CTDs import load_Joinville_transect_CTDs
+import warnings
+
+import mixsea as mx
+import numpy as np
+import pandas as pd
+# data handling
+import scipy.stats as ss
+
+# import my self written functions
+from src.read_CTDs import load_Joinville_transect_CTDs
+
 warnings.filterwarnings('ignore', category=RuntimeWarning)
 
 OUTLIERS = ['PS71/216-1', 'PS40/099-1', 'PS49/015-2', 'PS71/212-3', 'PS71/210-2']

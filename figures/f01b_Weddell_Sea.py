@@ -1,12 +1,12 @@
-import rioxarray
-import numpy as np
-import pandas as pd
-import matplotlib
-import matplotlib.pyplot as plt
+import cartopy.crs as ccrs
+import cmocean
 import matplotlib.colors as mcolors
 import matplotlib.path as mpath
-import cmocean
-import cartopy.crs as ccrs
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import rioxarray
+
 cm = 1/2.54  # centimeters in inches
 TWO_COLUMN_WIDTH = 12
 

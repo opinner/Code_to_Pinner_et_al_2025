@@ -1,8 +1,10 @@
+import warnings
+
 import numpy as np
 import pandas as pd
-from src.read_CTDs import load_Joinville_transect_CTDs
 import scipy.stats as ss
-import warnings
+
+from src.read_CTDs import load_Joinville_transect_CTDs
 
 warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 

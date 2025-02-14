@@ -1,12 +1,13 @@
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
+import warnings
+
 import cmocean
+import matplotlib.colors as mcolors
+import matplotlib.pyplot as plt
 import mixsea as mx
+import numpy as np
+import pandas as pd
 import scipy.stats as ss
 from pandas import DataFrame
-import warnings
 
 warnings.filterwarnings('ignore', category=RuntimeWarning)
 import src.read_CTDs

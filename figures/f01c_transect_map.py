@@ -1,12 +1,11 @@
-import rioxarray
-import numpy as np
-import pandas as pd
-import gvpy
-import matplotlib
-import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
-import cmocean as cmocean
 import cartopy.crs as ccrs
+import cmocean as cmocean
+import gvpy
+import matplotlib.colors as mcolors
+import matplotlib.pyplot as plt
+import numpy as np
+import rioxarray
+
 import src.helper as helper
 from src.read_CTDs import load_Joinville_transect_CTDs
 

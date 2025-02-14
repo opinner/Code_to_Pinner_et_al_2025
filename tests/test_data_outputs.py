@@ -1,4 +1,3 @@
-import pytest_regressions
 import pandas as pd
 # tests assumes the default tolerance level of numpy.isclose
 

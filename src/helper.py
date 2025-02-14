@@ -1,12 +1,10 @@
 #TODO add comments
-import scipy.io as sio
-import scipy.signal as signal
-import scipy as sc
-import matplotlib.pyplot 
-import numpy as np
 import datetime as dt
-import matplotlib.dates as mdates #import DateFormatter
+
 import matplotlib.pyplot as plt
+import numpy as np
+import scipy.io as sio
+
 
 #-------------------------------------------
 #Functions for loading data 

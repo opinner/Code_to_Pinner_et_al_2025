@@ -1,4 +1,3 @@
-import scipy.signal as sg  #Package for signal analysis
 import numpy as np
 
 def total_multitaper(complex_velocity,dt = 1/12,P=10):

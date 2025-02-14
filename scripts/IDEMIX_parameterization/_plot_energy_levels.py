@@ -1,10 +1,9 @@
-import matplotlib.pyplot as plt
-#import matplotlib as mpl
-#mpl.rcParams.update(mpl.rcParamsDefault)
-#plt.rcParams['text.usetex'] = True
-import numpy as np
-import cmocean as cm
 import helper_functions as help
+import matplotlib.pyplot as plt
+# import matplotlib as mpl
+# mpl.rcParams.update(mpl.rcParamsDefault)
+# plt.rcParams['text.usetex'] = True
+import numpy as np
 
 """
 def path_as_footnote():

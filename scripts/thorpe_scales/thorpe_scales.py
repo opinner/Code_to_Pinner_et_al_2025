@@ -2,16 +2,19 @@
 # coding: utf-8
 # Thorpe scale approach in the Weddell Sea
 
+import warnings
+
 import matplotlib.colors as mcolors
 import matplotlib.pyplot as plt
+import mixsea as mx
 import numpy as np
 import pandas as pd
-import mixsea as mx
 import scipy.stats as ss
-from src.read_CTDs import load_Joinville_transect_CTDs
-import src.helper as helper
 from scipy.interpolate import interp1d  # is considered legacy code, will be in the future removed from scipy
-import warnings
+
+import src.helper as helper
+from src.read_CTDs import load_Joinville_transect_CTDs
+
 warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 # Suppress specific RuntimeWarning related to mean of empty slice
 warnings.filterwarnings(action="ignore", category=RuntimeWarning, message=".*Mean of empty slice.*")

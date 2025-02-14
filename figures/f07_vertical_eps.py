@@ -1,7 +1,6 @@
-import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.patches as mpatches
-import matplotlib.ticker as mticker
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 

@@ -1,17 +1,16 @@
-import numpy as np
-import matplotlib.pyplot as plt
-import gsw
-import pandas as pd
+import datetime
 import pathlib
 
+import gsw
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 # data handling
 import scipy.io as sio
-import datetime
 
-# import my self written functions
-from src.location import Location
-from src.ctd_cast import CTDCast
 import src.helper as helper
+from src.ctd_cast import CTDCast
+from src.location import Location
 
 RAW_DATA_DIR = " "
 
