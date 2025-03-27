@@ -5,6 +5,6 @@ authors:
   orcid: "https://orcid.org/0000-0002-4314-6232"
 title: "Analysis code to: Internal-wave-induced dissipation rates in the Weddell Sea Bottom Water gravity current (Pinner et al., 2025)"
 version: v1.0.0
-doi: https://doi.org/10.5281/zenodo.13134608
+doi: "10.5281/zenodo.13134608"
 date-released: 2025-03-27
 url: "https://github.com/opinner/Pinner_et_al_2025"
