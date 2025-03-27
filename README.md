@@ -2,9 +2,9 @@
 [![DOI](https://img.shields.io/badge/Paper--DOI%20-%2010.5194%2Fos--21--701--2025%20-%20%23f3d50d)](https://doi.org/10.5194/os-21-701-2025)  
 [![output data regression test](https://github.com/opinner/Pinner_et_al_2025/actions/workflows/output_regression_tests.yml/badge.svg)](https://github.com/opinner/Pinner_et_al_2025/actions/workflows/output_regression_tests.yml)
 
-# Analysis code to the publication: 
+## Analysis code to the publication: 
 # [Pinner et al., 2025](https://doi.org/10.5194/os-21-701-2025)
-# [*Internal-wave-induced dissipation rates in the Weddell Sea Bottom Water gravity current*](https://doi.org/10.5194/os-21-701-2025)
+# [*Internal-wave-induced dissipation rates <br> in the Weddell Sea Bottom Water gravity current*](https://doi.org/10.5194/os-21-701-2025)
 <img src="https://os.copernicus.org/articles/21/701/2025/os-21-701-2025-avatar-web.png" align="right" height="300"/>
 
 The Weddell Sea Bottom Water gravity current transports dense water from the continental shelf to the deep sea and is crucial for the formation of new deep-sea water. Building on vertical profiles and time series measured in the northwestern Weddell Sea, we apply three methods to distinguish turbulence caused by internal waves from that by other sources. We find that in the upper part of the gravity current, internal waves are important for the mixing of less dense water down into the current.
